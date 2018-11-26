@@ -1,0 +1,23 @@
+.tab{
+    -fx-padding: 20px;
+    -fx-border-width: 1px;
+    -fx-pref-width: 127;
+    -fx-pref-height: 40;
+    -fx-font-size: 18;
+    -fx-text-alignment: center;
+}
+
+.tab-header-background{
+    -fx-background-color: transparent;
+}
+
+.tab-container {
+    #-fx-alignment: center;
+    -fx-padding: 20;
+}
+.tab-pane {
+    -fx-padding: -1 -1 -1 -1;
+}
+.label {
+    -fx-font-size: 18;
+}

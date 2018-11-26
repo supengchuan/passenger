@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0"
+      prefWidth="450.0" stylesheets="@../css/MainStage.css" xmlns="http://javafx.com/javafx/8"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.supc.passenger.controller.MainStageController">
+    <children>
+        <TabPane layoutX="28.0" layoutY="64.0" prefHeight="708.0" prefWidth="395.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="打车">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="679.0" prefWidth="395.0">
+                            <children>
+                                <GridPane layoutX="23.0" layoutY="74.0" prefHeight="144.0" prefWidth="361.0">
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="175.0" minWidth="10.0"
+                                                           prefWidth="95.0"/>
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="266.0" minWidth="10.0"
+                                                           prefWidth="266.0"/>
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                                    </rowConstraints>
+                                    <children>
+                                        <Label text="出发地：">
+                                            <font>
+                                                <Font size="18.0"/>
+                                            </font>
+                                        </Label>
+                                        <Label text="目的地：" GridPane.rowIndex="1">
+                                            <font>
+                                                <Font size="18.0"/>
+                                            </font>
+                                        </Label>
+                                        <Label text="出发时间：" GridPane.rowIndex="2">
+                                            <font>
+                                                <Font size="18.0"/>
+                                            </font>
+                                        </Label>
+                                        <TextField prefHeight="36.0" prefWidth="266.0" GridPane.columnIndex="1"/>
+                                        <TextField prefHeight="36.0" prefWidth="266.0" GridPane.columnIndex="1"
+                                                   GridPane.rowIndex="1"/>
+                                        <TextField prefHeight="36.0" prefWidth="266.0" GridPane.columnIndex="1"
+                                                   GridPane.rowIndex="2"/>
+                                    </children>
+                                </GridPane>
+                                <Button layoutX="121.0" layoutY="236.0" mnemonicParsing="false" prefHeight="36.0"
+                                        prefWidth="266.0" text="开始打车">
+                                    <font>
+                                        <Font size="18.0"/>
+                                    </font>
+                                </Button>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="余额">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <GridPane layoutX="40.0" layoutY="57.0" prefHeight="118.0" prefWidth="307.0">
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="149.0" minWidth="10.0"
+                                                           prefWidth="67.0"/>
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="240.0" minWidth="10.0"
+                                                           prefWidth="240.0"/>
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                                    </rowConstraints>
+                                    <children>
+                                        <Label text="账户："/>
+                                        <Label text="余额：" GridPane.rowIndex="1"/>
+                                        <Label text="Tom" GridPane.columnIndex="1"/>
+                                        <Label text="1000￥" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+                                    </children>
+                                </GridPane>
+                                <Accordion layoutX="93.0" layoutY="264.0"/>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="信息">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="643.0" prefWidth="395.0"/>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+        <Label layoutX="383.0" layoutY="17.0" onMouseClicked="#quit" text="退出"/>
+    </children>
+</Pane>
