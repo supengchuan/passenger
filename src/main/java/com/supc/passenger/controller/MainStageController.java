@@ -1,6 +1,6 @@
 package com.supc.passenger.controller;
 
-import com.supc.passenger.MainAPP;
+import com.supc.passenger.StaticRes;
 import javafx.fxml.Initializable;
 
 import java.net.URL;
@@ -20,6 +20,6 @@ public class MainStageController implements ControlledStage, Initializable {
     }
 
     public void quit(){
-        stageController.getStage(MainAPP.mainViewID).close();
+        stageController.getStage(StaticRes.mainViewID).close();
     }
 }

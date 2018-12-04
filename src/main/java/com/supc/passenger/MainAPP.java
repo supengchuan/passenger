@@ -8,12 +8,7 @@ import javafx.stage.StageStyle;
 
 
 public class MainAPP extends Application {
-
-    public static String mainViewID = "MainView";
-    public static String mainViewRes = "/view/MainStage.fxml";
-    public static String loginViewID = "LoginView";
-    public static String loginViewRes = "/view/LoginStage.fxml";
-
+    
     private StageController stageController;
 
 
@@ -38,10 +33,10 @@ public class MainAPP extends Application {
 
         stageController.setPrimaryStage("primaryStage", primaryStage);
 
-        stageController.loadStage(loginViewID, loginViewRes, StageStyle.UNDECORATED);
-        stageController.loadStage(mainViewID, mainViewRes, StageStyle.UNDECORATED);
+        stageController.loadStage(StaticRes.loginViewID, StaticRes.loginViewRes, StageStyle.UNDECORATED);
+        stageController.loadStage(StaticRes.mainViewID, StaticRes.mainViewRes, StageStyle.UNDECORATED);
 
-        stageController.setStage(loginViewID);
+        stageController.setStage(StaticRes.loginViewID);
 
 
     }
