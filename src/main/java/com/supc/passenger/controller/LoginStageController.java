@@ -1,7 +1,7 @@
 package com.supc.passenger.controller;
 
 
-import com.supc.passenger.MainAPP;
+import com.supc.passenger.StaticRes;
 import javafx.fxml.Initializable;
 
 import java.net.URL;
@@ -14,8 +14,10 @@ public class LoginStageController implements ControlledStage, Initializable {
         this.stageController = stageController;
     }
 
-    public void initialize(URL location, ResourceBundle resouces){}
-    public void eventLogin(){
-        stageController.setStage(MainAPP.mainViewID, MainAPP.loginViewID);
+    public void initialize(URL location, ResourceBundle resouces) {
+    }
+
+    public void eventLogin() {
+        stageController.setStage(StaticRes.mainViewID, StaticRes.loginViewID);
     }
 }
