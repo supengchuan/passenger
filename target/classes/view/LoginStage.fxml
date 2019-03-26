@@ -16,7 +16,7 @@
                 <Font size="36.0"/>
             </font>
         </Text>
-        <Button layoutX="324.0" layoutY="547.0" mnemonicParsing="false" text="注册">
+        <Button layoutX="324.0" layoutY="547.0" mnemonicParsing="false" onAction="#eventRegister" text="注册">
             <font>
                 <Font size="18.0"/>
             </font>

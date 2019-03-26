@@ -8,13 +8,14 @@ import javafx.stage.StageStyle;
 
 
 public class MainAPP extends Application {
-    
+
     private StageController stageController;
 
 
     /**
      * 程序入口
-     * @param  args 输入参数
+     *
+     * @param args 输入参数
      */
     public static void main(String[] args) {
         //launchApp(MainController.class, LoginStageView.class, args);
@@ -35,7 +36,7 @@ public class MainAPP extends Application {
 
         stageController.loadStage(StaticRes.loginViewID, StaticRes.loginViewRes, StageStyle.UNDECORATED);
         stageController.loadStage(StaticRes.mainViewID, StaticRes.mainViewRes, StageStyle.UNDECORATED);
-
+        stageController.loadStage(StaticRes.registerViewID, StaticRes.registerViewRes, StageStyle.UNDECORATED);
         stageController.setStage(StaticRes.loginViewID);
 
 

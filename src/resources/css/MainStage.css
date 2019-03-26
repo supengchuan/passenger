@@ -21,3 +21,8 @@
 .label {
     -fx-font-size: 18;
 }
+
+.button {
+    -fx-pref-width: 125;
+    -fx-pref-height: 40;
+}
