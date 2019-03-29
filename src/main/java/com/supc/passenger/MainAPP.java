@@ -37,8 +37,7 @@ public class MainAPP extends Application {
         stageController.loadStage(StaticRes.loginViewID, StaticRes.loginViewRes, StageStyle.UNDECORATED);
         stageController.loadStage(StaticRes.mainViewID, StaticRes.mainViewRes, StageStyle.UNDECORATED);
         stageController.loadStage(StaticRes.registerViewID, StaticRes.registerViewRes, StageStyle.UNDECORATED);
+
         stageController.setStage(StaticRes.loginViewID);
-
-
     }
 }
