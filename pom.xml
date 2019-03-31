@@ -15,7 +15,67 @@
             <artifactId>sqlite-jdbc</artifactId>
             <version>3.23.1</version>
         </dependency>
+        <!--jpbc start-->
+        <dependency>
+            <groupId>jpbc-2.0.0</groupId>
+            <artifactId>jpbc-crypto-2.0.0</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/LocalJars/jpbc-crypto-2.0.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>jpbc-2.0.0</groupId>
+            <artifactId>jpbc-api-2.0.0</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/LocalJars/jpbc-api-2.0.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>jpbc-2.0.0</groupId>
+            <artifactId>jpbc-benchmark-2.0.0</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/LocalJars/jpbc-benchmark-2.0.0.jar</systemPath>
+        </dependency>
 
+        <dependency>
+            <groupId>jpbc-2.0.0</groupId>
+            <artifactId>jpbc-pbc-2.0.0</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/LocalJars/jpbc-pbc-2.0.0.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>jpbc-2.0.0</groupId>
+            <artifactId>jpbc-mm-2.0.0</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/LocalJars/jpbc-mm-2.0.0.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>jpbc-2.0.0</groupId>
+            <artifactId>jpbc-plaf-2.0.0</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/LocalJars/jpbc-plaf-2.0.0.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>jna</groupId>
+            <artifactId>jna-3.2.5</artifactId>
+            <version>3.2.5</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/LocalJars/jna-3.2.5.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>bcprov-jdk16-1.46</groupId>
+            <artifactId>bcprov-jdk1</artifactId>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/LocalJars/bcprov-jdk16-1.46.jar</systemPath>
+        </dependency>
+        <!--jpbc end-->
     </dependencies>
 
 </project>
