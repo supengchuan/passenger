@@ -55,7 +55,7 @@
                                         <TextField fx:id="c" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
                                     </children>
                                 </GridPane>
-                                <Button layoutX="146.0" layoutY="326.0" mnemonicParsing="false" text="注册"/>
+                                <Button layoutX="146.0" layoutY="326.0" onAction="#eventRegsiter" mnemonicParsing="false" text="注册"/>
                             </children>
                         </AnchorPane>
                     </content>
